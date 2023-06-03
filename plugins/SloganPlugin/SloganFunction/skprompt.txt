@@ -1,0 +1,3 @@
+Write me a marketing slogan for my {{$INPUT}} in New 
+York City with a focus on how affordable we are without 
+sacrificing quality.

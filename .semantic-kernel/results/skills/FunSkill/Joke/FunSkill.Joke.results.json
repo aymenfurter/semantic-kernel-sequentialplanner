@@ -1,0 +1,45 @@
+{
+    "skillName": "FunSkill",
+    "functionName": "Joke",
+    "description": "Generate a funny joke",
+    "filePath": "skills\\FunSkill\\Joke\\skprompt.txt",
+    "results": [
+        {
+            "completionConfig": {
+                "label": "gpt-3.5-turbo-0301",
+                "aiService": "OpenAI",
+                "deploymentOrModelId": "gpt-3.5-turbo-0301",
+                "endpoint": null,
+                "useCustomEndpoint": false,
+                "endpointType": "chat-completion",
+                "chatSystemMessage": "You are an AI assistant that helps people find information."
+            },
+            "requestSettings": {
+                "temperature": 0,
+                "topP": 0,
+                "presencePenalty": 0,
+                "frequencyPenalty": 0,
+                "maxTokens": 0,
+                "stopSequences": []
+            },
+            "variables": [
+                {
+                    "key": "style",
+                    "value": "nice"
+                },
+                {
+                    "key": "input",
+                    "value": ""
+                }
+            ],
+            "output": {
+                "prompt": "WRITE EXACTLY ONE JOKE or HUMOROUS STORY ABOUT THE TOPIC BELOW\n\nJOKE MUST BE:\n- G RATED\n- WORKPLACE/FAMILY SAFE\nNO SEXISM, RACISM OR OTHER BIAS/BIGOTRY\n\nBE CREATIVE AND FUNNY. I WANT TO LAUGH.\nnice\n+++++\n\n\n+++++\n",
+                "durationInMilliseconds": 2437.6563,
+                "inputTokens": null,
+                "outputTokens": null,
+                "result": "Why did the computer go to the doctor? Because it had a virus!",
+                "chatCompletionResult": "Why did the computer go to the doctor? Because it had a virus!"
+            }
+        }
+    ]
+}

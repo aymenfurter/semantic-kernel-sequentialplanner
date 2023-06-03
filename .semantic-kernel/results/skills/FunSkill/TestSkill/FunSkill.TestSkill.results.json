@@ -1,0 +1,97 @@
+{
+    "skillName": "FunSkill",
+    "functionName": "TestSkill",
+    "description": "Test Skill",
+    "filePath": "skills\\FunSkill\\TestSkill\\skprompt.txt",
+    "results": [
+        {
+            "completionConfig": {
+                "label": "gpt-3.5-turbo-0301",
+                "aiService": "OpenAI",
+                "deploymentOrModelId": "gpt-3.5-turbo-0301",
+                "endpoint": null,
+                "useCustomEndpoint": false,
+                "endpointType": "chat-completion",
+                "chatSystemMessage": "You are an AI assistant that helps people find information."
+            },
+            "requestSettings": {
+                "temperature": 0,
+                "topP": 0,
+                "presencePenalty": 0,
+                "frequencyPenalty": 0,
+                "maxTokens": 0,
+                "stopSequences": []
+            },
+            "variables": [
+                {
+                    "key": "INPUT",
+                    "value": "cat"
+                }
+            ],
+            "output": {
+                "prompt": "Write me a marketing slogan for my cat in New \nYork City with a focus on how affordable we are without \nsacrificing quality.",
+                "durationInMilliseconds": 3507.8207,
+                "inputTokens": null,
+                "outputTokens": null,
+                "result": "\"Affordable feline luxury in the heart of the city - your cat's dream come true!\"",
+                "chatCompletionResult": "\"Affordable feline luxury in the heart of the city - your cat's dream come true!\""
+            }
+        },
+        {
+            "completionConfig": {
+                "label": "gpt-3.5-turbo-0301",
+                "aiService": "OpenAI",
+                "deploymentOrModelId": "gpt-3.5-turbo-0301",
+                "endpoint": null,
+                "useCustomEndpoint": false,
+                "endpointType": "chat-completion",
+                "chatSystemMessage": "You are an AI assistant that helps people find information."
+            },
+            "requestSettings": {
+                "temperature": 0,
+                "topP": 0,
+                "presencePenalty": 0,
+                "frequencyPenalty": 0,
+                "maxTokens": 0,
+                "stopSequences": []
+            },
+            "variables": [],
+            "output": {
+                "prompt": "Summarize the following text in two sentences or less. \n---Begin Text---\nJan had always wanted to be a writer, ever since they \nwere a kid. They spent hours reading books, writing \nstories, and imagining worlds. They grew up and pursued \ntheir passion, studying literature and journalism, and \nsubmitting their work to magazines and publishers. They \nfaced rejection after rejection, but they never gave up \nhope. Jan finally got their breakthrough, when a famous \neditor discovered their manuscript and offered them a \nbook deal.\n---End Text---",
+                "durationInMilliseconds": 2859.6307,
+                "inputTokens": null,
+                "outputTokens": null,
+                "result": "Jan pursued their passion for writing despite facing rejection and finally got a book deal when a famous editor discovered their manuscript.",
+                "chatCompletionResult": "Jan pursued their passion for writing despite facing rejection and finally got a book deal when a famous editor discovered their manuscript."
+            }
+        },
+        {
+            "completionConfig": {
+                "label": "gpt-3.5-turbo-0301",
+                "aiService": "OpenAI",
+                "deploymentOrModelId": "gpt-3.5-turbo-0301",
+                "endpoint": null,
+                "useCustomEndpoint": false,
+                "endpointType": "chat-completion",
+                "chatSystemMessage": "You are an AI assistant that helps people find information."
+            },
+            "requestSettings": {
+                "temperature": 0,
+                "topP": 0,
+                "presencePenalty": 0,
+                "frequencyPenalty": 0,
+                "maxTokens": 0,
+                "stopSequences": []
+            },
+            "variables": [],
+            "output": {
+                "prompt": "Write me a marketing slogan for my apparel shop in New \nYork City with a focus on how affordable we are without \nsacrificing quality.",
+                "durationInMilliseconds": 2510.8491,
+                "inputTokens": null,
+                "outputTokens": null,
+                "result": "\"Style meets savings at our affordable apparel shop in the heart of NYC!\"",
+                "chatCompletionResult": "\"Style meets savings at our affordable apparel shop in the heart of NYC!\""
+            }
+        }
+    ]
+}
